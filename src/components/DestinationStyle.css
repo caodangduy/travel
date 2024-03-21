@@ -1,0 +1,61 @@
+.destination{
+    margin: 4rem 6rem;
+    
+
+}
+.destination h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.destination p{
+    text-align: center;
+}
+.first-des{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+.first-des-reverse{
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.des-text{
+    padding-right: 4%;
+    float: left;
+    width: 46%;
+    /* text-align: start; */
+    font-size: 1.1rem;
+}
+.des-text p{
+    text-align: start;
+}
+.des-text h2{
+    padding-bottom: 1rem;
+}
+.image{
+    float: left;
+    position: relative;
+    width: 50%;
+    justify-content: space-between;
+    z-index: -99;
+   
+}
+.image img{
+    margin-left: 1%;
+    width: 49%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+.image img:nth-child(2){
+    position: absolute;
+    top: -10%;
+    right: 0;
+}

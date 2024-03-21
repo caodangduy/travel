@@ -1,0 +1,33 @@
+.from-container{
+    margin: 4rem 6rem;
+
+}
+.from-container form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+.from-container input{
+    width: 100%;
+    height: 5rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid;
+}
+.from-container textarea{
+    width: 100%;
+    height: 15rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid;
+}
+.from-container h1{
+    text-align: center;
+}
+.from-container button{
+    display: inline;
+}
